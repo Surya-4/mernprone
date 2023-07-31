@@ -223,3 +223,7 @@ a svg{
 .create-post button{
   width: 102%;
 }
+
+.create-post .editor{
+  width: 7000px;
+}
