@@ -1,36 +1,35 @@
-# EastErn – E-Commerce Platform
+# BlogSpace – MERN Blogging Platform
 
-A microservices-based e-commerce platform built using Spring Boot and MongoDB with secure authentication and role-based access control.
+A full-stack blogging platform built using the MERN stack, supporting user authentication and blog publishing.
 
 ## 🚀 Features
-- Microservices architecture:
-  - Authentication Service
-  - Product Catalog Service
-  - Cart Service
-  - Order Service
-- Role-Based Access Control (RBAC)
-- Secure authentication using JWT (cookie-based)
-- Optimized MongoDB queries for high-performance reads
+- User authentication and authorization
+- Create, read, update, delete (CRUD) blogs
+- Public blog feed
+- Pagination for scalable data handling
 
 ## 🏗️ Architecture
-Client → Microservices (Spring Boot) → MongoDB
+React Frontend → Node.js/Express API → MongoDB
 
 
 ## ⚙️ Tech Stack
-- Java, Spring Boot
 - MongoDB
-- Angular (Frontend)
-- JWT Authentication
+- Express.js
+- React.js
+- Node.js
 
 ## 📡 APIs
-- User Authentication (Login/Register)
-- Product Management
-- Cart Operations
-- Order Processing
+- User authentication
+- Blog CRUD operations
+- Feed retrieval with pagination
 
 ## ▶️ How to Run
 
 ```bash
-# Run individual services
-mvn spring-boot:run
-```
+# Backend
+npm install
+npm start
+
+# Frontend
+npm install
+npm start
